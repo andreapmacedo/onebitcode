@@ -1,0 +1,20 @@
+p {
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 3;
+}
+
+h1 {
+    font-family: 'Geostar', cursive;
+    /* margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px; */
+    /* margin: 30px 30px 30px 30px;  */
+    margin: 45px auto 200px auto; 
+    width: 20%;
+    border: 2px solid;
+    padding: 10px 20px 30px 20px;
+
+}

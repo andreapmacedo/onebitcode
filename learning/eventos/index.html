@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/evento.js"></script>
+</head>
+<body>
+    <p>
+        <button onclick="clickMe()">clique-me</button>
+    </p>
+    <p>
+        focus
+        <input type="text" name="focus-text" onfocus="focusMe()">
+    </p>
+    
+    <p>
+        blur
+        <input type="text" name="blur-text" onblur="blurMe()">
+    </p>
+    
+    <p>
+        <input type="text" name="change-text" onchange="changeMe()">
+        change
+    </p>
+
+    <p onmouseover="overMe()">
+        Passe o mouse sobre mim!
+    </p>
+
+</body>
+</html>
