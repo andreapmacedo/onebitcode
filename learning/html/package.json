@@ -1,0 +1,27 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/api_express/servidor.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreapmacedo/html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreapmacedo/html/issues"
+  },
+  "homepage": "https://github.com/andreapmacedo/html#readme"
+}

@@ -1,0 +1,26 @@
+wizard para definir como será o arquivo .json
+    npm init
+    npm init -y
+
+dependências
+
+    instalação
+        npm i --save <nome-do-pacote>
+        exemplo -> npm i --save axios
+        exemplo -> npm i --save axios@1.12.3 -E (versão específica)
+        exemplo -> npm i --save-dev axios (desenvolvimento apenas)
+
+    desinstalação
+        npm uninstall <nome-do-pacote>
+
+
+
+Bibliotecas e frameworks
+
+
+lodash
+    npm i lodash
+
+nodemon
+    sudo npm i -g nodemon
+
