@@ -1,0 +1,63 @@
+
+/* tags */
+li{
+    color: green;
+    
+
+}
+
+h1{
+    /* font-size: 30px; */
+    color: white;
+    /* border-color: yellow;
+    border-width: 8px;
+    border-style: solid; */
+
+    border: 2px dashed orange
+}
+
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/600px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* classe */
+.moon {
+    color: orange;
+    font-style: italic;
+}
+
+/* id */
+#europa-text{
+    font-size: 25px;
+    color: blue;
+}
+
+/* todos */
+*{
+    border: 2px;
+}
+
+/* seletor de decendência (todo <p> que for filho de li não importa quantos graus) */
+li p{
+    color: lawngreen;
+}
+
+/* seletor filho */
+li > p {
+    color: red;
+} 
+/* apenas para o elemento imediatamente abaixo */
+h1 + h4 {
+    color: royalblue;
+}
+
+/* atriburo */
+a[href='www.google.com']{
+    color: lemonchiffon;
+}
+/* pseudo classe (neste exemplo, todo segundo li será modificado) */
+li:nth-of-type(2) {
+    color: purple;
+}

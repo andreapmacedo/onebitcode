@@ -1,0 +1,14 @@
+p {
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3;
+}
+
+h1 {
+    /* font-family: 'Geostar, cursive', 'Noto Sans', sans-serif; */
+    font-family: 'Geostar', cursive;
+    
+    /* text-align: center;
+    text-decoration: underline; */
+}
