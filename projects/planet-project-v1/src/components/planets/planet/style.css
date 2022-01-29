@@ -1,0 +1,10 @@
+.div {
+    background-color: slategrey;
+    border-color: black;
+    border-style:solid;
+    align-content: center;
+    margin: auto;
+    width: 900px;
+    font-size: large;
+}
+

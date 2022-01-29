@@ -1,0 +1,68 @@
+/* ----------------- */
+/* -   box-sizing  - */
+/* ----------------- */
+
+/*
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-sizing
+https://www.w3schools.com/cssref/css3_pr_box-sizing.asp 
+box-sizing: content-box
+box-sizing: border-box
+box-sizing: inherit
+*/
+
+* {
+  /* includes only the content. Border and padding are not included */
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  background-color: lightgrey;
+}
+
+.cabecalho {
+  /* Não vai considerar a borda */
+  box-sizing: content-box;
+
+  background-color: blueviolet;
+  border-bottom: 5px solid coral;
+  height: 80px;
+  text-decoration: none;
+  color: #eee;
+
+  /* display: inline-block; */
+}
+
+.logo {
+  display: inline-block;
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 70px;
+  height: 80px;
+  /* padding: 15px; */
+  color: coral;
+}
+
+.menu {
+  display: inline-block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  vertical-align: top;
+  height: 80px;
+  padding: 25px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 1.3em;
+  padding: 10px;
+}

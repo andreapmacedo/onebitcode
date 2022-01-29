@@ -1,0 +1,14 @@
+
+Bulma
+
+site -> https://bulma.io/documentation/overview/start/
+cdn site -> https://cdnjs.com/libraries/bulma
+cdn link -> https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css
+
+
+Font awesome
+    site -> https://fontawesome.com/
+    script -> <script defer src="https://kit.fontawesome.com/0187d36b57.js" crossorigin="anonymous"></script>
+
+
+
